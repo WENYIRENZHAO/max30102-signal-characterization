@@ -86,5 +86,5 @@ notes/
 experiment_log.md
 ```
 
-Limitations
+## Limitations
 This system is not designed or validated as a clinical heart-rate monitor. The results should be interpreted as an introductory characterization of raw sensor behavior under different measurement conditions, not as a biomedical validation study.
