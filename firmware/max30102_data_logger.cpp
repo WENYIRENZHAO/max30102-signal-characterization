@@ -1,4 +1,4 @@
-// MAX30102 data logging firmware
+// MAX30102 data logging firmware_
 // This file contains the microcontroller code for reading raw red and IR values.
 
 #include "Particle.h"
