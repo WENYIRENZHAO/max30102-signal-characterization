@@ -48,7 +48,11 @@ This method is not a laboratory-grade calibration method, but it gives a reasona
 
 Figure 1:experimental setup.
 
-[Experimental setup photo](../figures/IMG_8475.HEIC)
+![Experimental Setup](../figures/IMG_8475%20Small.jpeg)
+![Serial Monitor Output](../figures/IMG_8476%20Small.jpeg)
+![Serial Monitor Output](../figures/IMG_8477%20Small.jpeg)
+![Serial Monitor Output](../figures/IMG_8478%20Small.jpeg)
+![Serial Monitor Output](../figures/IMG_8479%20Small.jpeg)
 
 ---
 
