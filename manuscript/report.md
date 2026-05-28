@@ -47,13 +47,7 @@ where $h$ is the height and $b$ is the base length.
 This method is not a laboratory-grade calibration method, but it gives a reasonable physical reference for a preliminary sensor validation experiment. The goal was not to prove the exact angle with perfect certainty, but to compare the sensor reading with a controlled and repeatable physical setup.
 
 Figure 1:experimental setup.
-
-![Experimental Setup](../figures/IMG_8475%20Small.jpeg)
-![Serial Monitor Output](../figures/IMG_8476%20Small.jpeg)
-![Serial Monitor Output](../figures/IMG_8477%20Small.jpeg)
-![Experimental Setup](../figures/IMG_99156CA2-02AE-4AA5-B877-325B1373C613%20Small.jpeg)
-![Serial Monitor Output](../figures/IMG_8479%20Small.jpeg)
-
+![Level 4 Incline](../figures/Lv3_incline.png)
 ---
 
 ### 3.3 Data Collection
