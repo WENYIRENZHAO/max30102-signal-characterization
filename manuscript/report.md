@@ -102,7 +102,9 @@ The MPU6050 roll readings increased consistently as the physical tilt angle incr
 
 The readings did not jump around very much within each angle. For example, the standard deviations were all below about 0.3°, so the MPU6050 was fairly steady when the setup was not moving. The larger issue was accuracy at higher angles. The error was small at 15.15°, but it became much larger by the 55.05° setup. This makes me think the sensor itself was repeatable, but my physical setup or sensor alignment may have introduced a consistent bias.
 
-![Serial Monitor Output](../figures/serial_output.jpg)
+One example serial monitor screenshot is shown below. Additional screenshots are stored in the `figures/` folder.
+
+![Serial Monitor Output](../figures/serial_0.png)
 
 ---
 
