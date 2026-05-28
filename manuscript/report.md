@@ -48,7 +48,7 @@ This method is not a laboratory-grade calibration method, but it gives a reasona
 
 Figure 1:experimental setup.
 
-![Experimental Setup](../figures/setup_overview.jpg)
+[Experimental setup photo](../figures/IMG_8475.HEIC)
 
 ---
 
