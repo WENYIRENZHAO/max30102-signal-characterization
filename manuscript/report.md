@@ -51,7 +51,7 @@ Figure 1:experimental setup.
 ![Experimental Setup](../figures/IMG_8475%20Small.jpeg)
 ![Serial Monitor Output](../figures/IMG_8476%20Small.jpeg)
 ![Serial Monitor Output](../figures/IMG_8477%20Small.jpeg)
-![Serial Monitor Output](../figures/IMG_8478%20Small.jpeg)
+![Experimental Setup](../figures/IMG_99156CA2-02AE-4AA5-B877-325B1373C613%20Small.jpeg)
 ![Serial Monitor Output](../figures/IMG_8479%20Small.jpeg)
 
 ---
