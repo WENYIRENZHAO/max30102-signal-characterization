@@ -47,7 +47,13 @@ where $h$ is the height and $b$ is the base length.
 This method is not a laboratory-grade calibration method, but it gives a reasonable physical reference for a preliminary sensor validation experiment. The goal was not to prove the exact angle with perfect certainty, but to compare the sensor reading with a controlled and repeatable physical setup.
 
 Figure 1:experimental setup.
-![Level 4 Incline](../figures/Lv3_incline.png)
+
+One example of the physical tilt setup is shown below. Additional setup photos for the other tilt levels are stored in the `figures/` folder.
+
+<p align="center">
+  <img src="../figures/Lv3_incline.png" alt="Level 4 Incline" width="500">
+</p>
+
 ---
 
 ### 3.3 Data Collection
@@ -98,7 +104,9 @@ The readings did not jump around very much within each angle. For example, the s
 
 One example serial monitor screenshot is shown below. Additional screenshots are stored in the `figures/` folder.
 
-![Serial Monitor Output](../figures/serial_0.png)
+<p align="center">
+  <img src="../figures/serial_0.png" alt="Serial Monitor Output" width="450">
+</p>
 
 ---
 
