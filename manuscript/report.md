@@ -1,6 +1,6 @@
 # A Preliminary Test of MPU6050 Roll Angle Measurement under Static Tilt Conditions
 
-# 1. Purpose
+## 1. Purpose
 
 The purpose of this experiment was to test whether an MPU6050 sensor could give reasonable roll angle measurements when compared with manually constructed physical tilt angles.
 
