@@ -6,6 +6,16 @@ This project is an introductory directed research project focused on sensor inte
 
 The goal is not to develop a clinical heart-rate monitor. Instead, the goal is to characterize how raw red and infrared readings from a MAX30102 sensor change under different measurement conditions.
 
+## Current Progress
+
+The original project focuses on MAX30102 raw red and infrared signal characterization. Since the MAX30102 hardware setup is still being restored, the current completed work focuses on validating the MPU6050 roll-angle measurement as a supporting step for future motion-related analysis.
+
+The current report is available here:
+
+- `manuscript/report.md`
+
+In this preliminary experiment, I tested five static tilt setups, calculated the physical reference angles from measured height and base values, and compared them with MPU6050 `RollRaw` readings from the Arduino serial monitor. The results showed that the readings were stable within each condition, while the error increased at larger tilt angles. This suggests that the MPU6050 can be useful for basic motion or tilt tracking, but the physical setup and alignment still matter.
+
 ## Project Goals
 
 - Collect raw red and infrared data from a MAX30102 sensor
@@ -16,15 +26,17 @@ The goal is not to develop a clinical heart-rate monitor. Instead, the goal is t
 - Discuss noise, motion artifacts, contact quality, and limitations
 
 ## Hardware
-
 | Component | Purpose |
 |---|---|
-| Particle Photon 2 | Microcontroller for sensor interfacing and serial output |
+| Particle Photon 2 | Microcontroller for MAX30102 raw signal collection |
+| Arduino Uno | Microcontroller used for MPU6050 roll-angle validation |
 | MAX30102 heart-rate sensor | Source of raw red and infrared readings |
+| MPU6050 IMU | Static tilt and motion/orientation measurement |
 | USB serial connection | Data transfer from microcontroller to computer |
 | Computer | Data logging, plotting, and analysis |
 
-## Experimental Conditions
+
+## ## Planned MAX30102 Experimental Conditions
 
 The MAX30102 raw signal will be tested under four controlled measurement conditions:
 
@@ -53,6 +65,30 @@ Basic signal variability metrics, including standard deviation and signal range
 Discussion of noise, motion artifacts, contact quality, and system limitations
 
 ## Repository Structure
+current:
+firmware/
+    max30102_data_logger.cpp
+    max30102_lcd_bpm.cpp
+    mpu6050_roll_validation.ino
+
+data/
+    raw_roll_readings.md
+
+figures/
+    Flat.png
+    Lv1_incline.png
+    Lv2_incline.png
+    Lv3_incline.png
+    Lv4_incline.jpg
+    serial_0.png
+    serial_1.png
+    serial_2.png
+    serial_3.png
+    serial_4.png
+
+manuscript/
+    report.md
+Expecting:
 ```text
 directed-research-max30102-characterization/
 firmware
