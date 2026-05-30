@@ -1,0 +1,30 @@
+# Analysis Notes
+
+The MAX30102 temperature experiment data were analyzed using Google Sheets.
+
+Each CSV file contained three columns:
+
+csv
+time_ms,red,ir
+Because the sensor readings were still stabilizing immediately after finger placement, the first 10 seconds of each recording were excluded from the summary statistics.
+In Google Sheets, the cutoff was implemented using the time_ms column. Since the data started at row 5 in the sheet, the cutoff condition was:
+
+A5:A >= A5 + 10000
+For example, the mean red value after excluding the first 10 seconds was calculated using:
+=AVERAGE(FILTER(B5:B,A5:A>=A5+10000))
+The same method was used for the red and IR columns. The following summary statistics were calculated:
+mean red
+sample standard deviation of red
+range of red
+mean IR
+sample standard deviation of IR
+range of IR
+The formulas used were:
+=AVERAGE(FILTER(B5:B,A5:A>=A5+10000))
+=STDEV.S(FILTER(B5:B,A5:A>=A5+10000))
+=MAX(FILTER(B5:B,A5:A>=A5+10000))-MIN(FILTER(B5:B,A5:A>=A5+10000))
+=AVERAGE(FILTER(C5:C,A5:A>=A5+10000))
+=STDEV.S(FILTER(C5:C,A5:A>=A5+10000))
+=MAX(FILTER(C5:C,A5:A>=A5+10000))-MIN(FILTER(C5:C,A5:A>=A5+10000))
+
+Here, column A was time_ms, column B was red, and column C was ir.
