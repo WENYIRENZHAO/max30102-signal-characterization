@@ -1,5 +1,8 @@
-T3_warm_38p0C_no_light_trial1.csv: middle finger, warmed with warm water and dried before measurement. 
+finger_temp_C 40.0
+middle finger, warmed with warm water and dried before measurement. 
 Initial finger temperature measured by the Terumo thermometer was approximately 40.0°C. No-light/covered condition, approximately 60 seconds.
+
+
 time_ms, red, ir
 2128041,1223,1215
 2128147,2193,2546
