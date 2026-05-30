@@ -1,4 +1,4 @@
-Room light, 29.25 flux.
+Room light, 29.25 lux.
 
 Under the room-light white-paper condition, the MAX30102 produced low but highly stable raw red and IR readings. 
 The small standard deviations and narrow ranges suggest that the fixed non-biological reflective target produced a stable optical baseline under room light.
