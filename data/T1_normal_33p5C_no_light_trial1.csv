@@ -1,4 +1,4 @@
-T1_normal_33p5C_no_light_trial1.csv: middle finger, finger temperature = 33.5°C, no-light/covered condition, 
+finger temperature = 33.5°C，no-light/covered condition, 
 approximately 60 seconds. The first 5–10 seconds may be excluded from analysis because the signal was still stabilizing after finger placement.
 
 time_ms, red, ir
