@@ -28,3 +28,5 @@ The formulas used were:
 =MAX(FILTER(C5:C,A5:A>=A5+10000))-MIN(FILTER(C5:C,A5:A>=A5+10000))
 
 Here, column A was time_ms, column B was red, and column C was ir.
+
+For other temperatures, the same method was applied.
